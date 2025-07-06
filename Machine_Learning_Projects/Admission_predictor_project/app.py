@@ -32,7 +32,7 @@ input_scaled = scaler.transform(input_data)
 #predict button
 if st.button('predict chance of admit'):
     prediction_original_scale = np.exp(model.predict(input_scaled)[0])
-    st.success(f'predicted chance of admit: {round(prediction_original_scale * 100),2}')
+    st.success(f'predicted chance of admit: {round(prediction_original_scale * 100)}')
 
 
 feature_names = ['gre_score', 'toefl_score', 'university_rating', 'sop', 'lor', 'cgpa', 'research']
