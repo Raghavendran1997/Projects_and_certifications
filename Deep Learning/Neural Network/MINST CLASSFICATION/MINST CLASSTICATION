@@ -1,0 +1,3 @@
+This notebook demonstrates how a basic neural network can be built and trained using Python to classify handwritten digits from the MNIST dataset.
+The goal of this project is not to achieve state-of-the-art accuracy, but to understand the core building blocks of a neural network and how learning happens step by step without relying on high-level deep learning frameworks.
+
